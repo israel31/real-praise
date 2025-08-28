@@ -23,8 +23,8 @@ import { createClient } from '@supabase/supabase-js';
 
 // Use the environment variables from Netlify if they exist.
 // Otherwise, fall back to the hardcoded keys for local development.
-const supabaseUrl = process.env.REACT_APP_SUPABASE_URL || 'https://snlmeqdnbjmgcyoasndk.supabase.co';
-const supabaseAnonKey = process.env.REACT_APP_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNubG1lcWRuYmptZ2N5b2FzbmRrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYxMzY5ODIsImV4cCI6MjA3MTcxMjk4Mn0.ONquE46F5a_XiEoJpgzVsClYBRBpCMHeGP72fGV3sQA';
+const supabaseUrl = process.env.REACT_APP_SUPABASE_URL;
+const supabaseAnonKey = process.env.REACT_APP_SUPABASE_ANON_KEY; 
 
 // IMPORTANT: You MUST replace the placeholder above with your actual, real Supabase anon key.
 // If you don't, your local development will fail.
